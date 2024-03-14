@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue Mar 12 14:53:00 2024
+# Process ID: 7396
+# Current directory: C:/Users/Gerald/OneDrive - Singapore University of Technology and Design/Desktop/DSL/Individual/HW2_q1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12516 C:\Users\Gerald\OneDrive - Singapore University of Technology and Design\Desktop\DSL\Individual\HW2_q1\HW2.xpr
+# Log file: C:/Users/Gerald/OneDrive - Singapore University of Technology and Design/Desktop/DSL/Individual/HW2_q1/vivado.log
+# Journal file: C:/Users/Gerald/OneDrive - Singapore University of Technology and Design/Desktop/DSL/Individual/HW2_q1\vivado.jou
+# Running On: LAPTOP-UJ26DATO, OS: Windows, CPU Frequency: 3194 MHz, CPU Physical cores: 16, Host memory: 14877 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Gerald/OneDrive - Singapore University of Technology and Design/Desktop/DSL/Individual/HW2_q1/HW2.xpr}
+update_compile_order -fileset sources_1
+close_project
+open_project {C:/Users/Gerald/OneDrive - Singapore University of Technology and Design/Desktop/DSL/Individual/CMOD_A7_XSA_generator/CMOD_A7_XSA_generator.xpr}
+create_bd_design "cmodA7_xsa_file"
+update_compile_order -fileset sources_1
+set_property platform.extensible true [current_project]
